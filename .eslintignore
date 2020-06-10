@@ -1,0 +1,9 @@
+#See https://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories
+/src/*.vue
+/src/components/*.vue
+/src/*.js
+/src/apis/*.js
+/src/store/*.js
+/src/pages/*.vue
+/src/router/*.js
+
