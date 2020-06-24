@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-  <router-link :to="{ name: 'Contacts', params: { contactId: 0}}">Add Contact</router-link>
+  <router-link :to="{ name: 'AddEditContact', params: { contactId: 0}}">Add Contact</router-link>
    <table v-if="hasContacts" :v-for="(index,contact) in this.contacts" :key="index">
      <tr>
        <th>Name</th>

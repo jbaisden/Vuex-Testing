@@ -4,6 +4,7 @@
 /src/*.js
 /src/apis/*.js
 /src/store/*.js
+/src/store/modules/*.js
 /src/pages/*.vue
 /src/router/*.js
 
