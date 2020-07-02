@@ -1,12 +1,12 @@
 import ContactList from '../pages/ContactList'
-import ToDosList from '../pages/ToDosList'
+import TodosPage from '../pages/TodosPage'
 import AddEditContact from '../pages/AddEditContact'
 
 export const routes = [
   {
     path: '/',
     name: 'Todo',
-    component: ToDosList
+    component: TodosPage
   },
   {
     path: '/ContactList',

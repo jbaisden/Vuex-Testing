@@ -3,20 +3,21 @@
   <div>
     <AddTodo></AddTodo>
     <FilterTodos />
-    <todos-comp> </todos-comp>  
+    <TodosList />
   </div>
 </template>
 
 <script>
-import TodosComp from '../components/ToDos'
-import AddTodo from '../components/AddTodo'
-import FilterTodos from '../components/FilterTodos'
+
+import AddTodo from '@/components/Todos/AddTodo'
+import TodosList from '@/components/Todos/TodosList'
+import FilterTodos from '@/components/Todos/FilterTodos'
 
 import { mapActions } from 'vuex'
 export default {
-    name: "ToDosList",
+    name: "TodosPage",
     components: {
-      TodosComp,
+      TodosList,
       FilterTodos,
       AddTodo
     }
