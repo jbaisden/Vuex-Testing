@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+See tutorial at FROM TUTORIAL AT https://www.youtube.com/watch?v=5lVQgZzLMHc&t=1513s
 ```
 
 ### Compiles and hot-reloads for development

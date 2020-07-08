@@ -1,7 +1,7 @@
 // FROM TUTORIAL AT https://www.youtube.com/watch?v=5lVQgZzLMHc&t=1513s
 <template>
   <div>
-    <AddTodo></AddTodo>
+    <AddTodo />
     <FilterTodos />
     <TodosList />
   </div>
